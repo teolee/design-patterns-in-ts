@@ -80,4 +80,8 @@ modules.xml
 .idea/misc.xml
 *.ipr
 
+behavioral/**/*.js
+creational/**/*.js
+structural/**/*.js
+
 # End of https://www.gitignore.io/api/intellij+iml

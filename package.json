@@ -1,0 +1,20 @@
+{
+  "name": "design-patterns-in-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "singleton": "node creational/singleton/demo",
+    "singleton": "node creational/factory-method/demo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teolee/design-patterns-in-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teolee/design-patterns-in-ts/issues"
+  },
+  "homepage": "https://github.com/teolee/design-patterns-in-ts#readme"
+}
