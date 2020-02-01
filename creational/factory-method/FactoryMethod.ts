@@ -18,26 +18,26 @@ export abstract class Creator {
   }
 }
 
-export class ConcreteCreator1 extends Creator {
+export class TruckCreator extends Creator {
   public factoryMethod(): Product {
-    return new ConcreteProduct1();
+    return new Truck();
   }
 }
 
-class ConcreteProduct1 implements Product {
+class Truck implements Product {
   public operation(): string {
-    return "Result of the Product1";
+    return "Result of the Truck";
   }
 }
 
-export class ConcreteCreator2 extends Creator {
+export class ShipCreator extends Creator {
   public factoryMethod(): Product {
-    return new ConcreteProduct2();
+    return new Ship();
   }
 }
 
-class ConcreteProduct2 implements Product {
+class Ship implements Product {
   public operation(): string {
-    return "Result of the Product2";
+    return "Result of the Ship";
   }
 }
