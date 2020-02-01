@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "singleton": "node creational/singleton/demo",
-    "singleton": "node creational/factory-method/demo"
+    "factory-method": "node creational/factory-method/demo"
   },
   "repository": {
     "type": "git",
