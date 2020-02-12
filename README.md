@@ -1,3 +1,3 @@
 # design-patterns-in-ts
-# teo-001
+# feature-01
 # 
